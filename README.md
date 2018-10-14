@@ -6,7 +6,7 @@ The purpose of this framework is to show intuitive test automation framework for
 
 The test framework written as a NodeJS application and dependencies are managed through npma. The framework uses the WebDriverIO for web driver binding, ChromeDriver, Mochajs for defining test suite (describe) or spec (it) and chaijs for assertion. E2E test will run against the chrome browser.
 
-### Running the tests locally
+### Running the tests locally Step by step (verified on macOS)
 
 Run the test suite locally via the following steps:
 
