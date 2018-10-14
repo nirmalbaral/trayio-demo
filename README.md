@@ -27,6 +27,10 @@ npm install
 npm test
 ```
 
+### Errors
+
+Not setting up tray.io login credential as per step 4 will cause all tests to fail.
+
 ### Project stucture
 
 The spec files that list and defined the test cases are under /specs/. The webdriveio settings are configured to the configuration file `wdio.conf.js`.
