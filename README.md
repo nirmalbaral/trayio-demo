@@ -21,7 +21,7 @@ Run the test suite locally via the following steps:
 5. Use `npm test` to kickoff the test suite.
 
 ```sh
-git clone git@github.com:nirmalbaral/trayio-demo.git
+git clone https://github.com/nirmalbaral/trayio-demo.git
 cd ./trayio-demo
 npm install
 npm test
