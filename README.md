@@ -4,7 +4,7 @@ The purpose of this framework is to show intuitive test automation framework for
 
 ### Tech stack
 
-The test framework written as a NodeJS application and dependencies are managed through npma. The framework uses the WebDriverIO for web driver binding, ChromeDriver, Mochajs for defining test suite (describe) or spec (it) and chaijs for assertion. E2E test will run against the chrome browser.
+The test framework written as a NodeJS application and dependencies are managed through `npm`. The framework uses the WebDriverIO for web driver binding, ChromeDriver, Mochajs for defining test suite (describe) or spec (it) and chaijs for assertion. E2E test will run against the chrome browser.
 
 ### Running the tests locally Step by step (verified on macOS)
 
@@ -37,7 +37,7 @@ The spec files that list and defined the test cases are under /specs/. The webdr
 
     .
     ├── ...
-    ├── test                    # test folder (alternatively `spec` or `tests`)
+    ├── test                    # test folder (alternatively `spec` or `suit`)
     │   ├── helpers             # helpers functions and thirdparty library files
     │   ├── pageobjects         # page object functions files
     │   └── specs               # test specs/suites
@@ -50,7 +50,7 @@ Create a new js file ending in spec.js and put it under /specs/pages/.
 
 #### Adding new tests in an existing spec file
 
-Add the new spec (it) in the existing file.
+Add new spec (it) in the existing file.
 
 #### Report generation
 
